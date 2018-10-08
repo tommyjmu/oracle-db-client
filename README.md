@@ -42,5 +42,6 @@ docker run  \
     -e DB_SERVICENAME= \    
     -v /path/to/local/data:/data \
     georgmoser/oracle-db-client
+    dump [[YOUR_ARGUMENTS (e.g. 'FULL=yes')]]
 ```
 

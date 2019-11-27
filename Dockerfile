@@ -33,6 +33,8 @@ RUN mkdir /data
 VOLUME /data
 
 ADD entrypoint.sh /usr/bin/entrypoint.sh
+ADD scripts/dump-tables.sh /usr/bin/dump-tables.sh
+ADD scripts/dump-db.sh /usr/bin/dump-db.sh
 
 WORKDIR /
 

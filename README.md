@@ -15,6 +15,14 @@ The container accepts the following mounted folder:
 
 * "/data" --> mount the folder where all output should be written to here
 
+### Environment Variables
+
+* DB_USERNAME: username for connection
+* DB_PASSWORT: password for connection
+* DB_PORT: database port (default: 1521)
+* DB_HOST: database host name
+* DB_SERVICENAME: database service name
+
 ### Opening a Shell:
 
 Run the container with:

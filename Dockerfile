@@ -17,11 +17,11 @@ ADD /assets /assets
 # Instal Oracle Client
 RUN mkdir /usr/lib/oracle/12.2/client64/network/admin -p
 
-RUN alien -i /assets/oracle-instantclient12.2-basic-12.2.0.1.0-1.x86_64.rpm &&\
-    alien -i /assets/oracle-instantclient12.2-devel-12.2.0.1.0-1.x86_64.rpm &&\
-    alien -i /assets/oracle-instantclient12.2-jdbc-12.2.0.1.0-1.x86_64.rpm &&\
-    alien -i /assets/oracle-instantclient12.2-tools-12.2.0.1.0-1.x86_64.rpm &&\
-    alien -i /assets/oracle-instantclient12.2-sqlplus-12.2.0.1.0-1.x86_64.rpm
+#RUN alien -i /assets/oracle-instantclient12.2-basic-12.2.0.1.0-1.x86_64.rpm &&\
+#    alien -i /assets/oracle-instantclient12.2-devel-12.2.0.1.0-1.x86_64.rpm &&\
+#    alien -i /assets/oracle-instantclient12.2-jdbc-12.2.0.1.0-1.x86_64.rpm &&\
+#    alien -i /assets/oracle-instantclient12.2-tools-12.2.0.1.0-1.x86_64.rpm &&\
+#    alien -i /assets/oracle-instantclient12.2-sqlplus-12.2.0.1.0-1.x86_64.rpm
 
 ENV ORACLE_HOME=/usr/lib/oracle/12.2/client64
 ENV TNS_ADMIN=/usr/lib/oracle/12.2/client64/network/admin

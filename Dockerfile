@@ -1,4 +1,4 @@
-FROM debian:jessie-slim
+FROM alpine:3.14
 
 ENV DB_PORT 1521
 ENV DB_USERNAME orcale

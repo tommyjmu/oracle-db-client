@@ -1,4 +1,4 @@
-FROM alpine:3.14
+FROM ubuntu:latest
 
 ENV DB_PORT 1521
 ENV DB_USERNAME orcale
